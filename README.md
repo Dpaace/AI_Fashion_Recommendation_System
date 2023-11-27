@@ -5,9 +5,11 @@
 ## Install Anaconda and set the default python version from the below configurations
 
 conda create -n py37 python =3.7
+
 conda activate py37
 
 conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
+
 conda install -c conda-forge cudatoolkit=10.1 cudnn=7.6
 
 python -m pip install --upgrade tensorflow=2.3.1
@@ -32,6 +34,7 @@ And configure the folders accordingly
 ![image](https://github.com/Dpaace/AI_Fashion_Recommendation_System/assets/63782923/f2d0f9c5-6519-4a44-8077-5992712f5eb3)
 
 And your final project overview will be like this:
+
 ![image](https://github.com/Dpaace/AI_Fashion_Recommendation_System/assets/63782923/8a8eae98-a806-46c7-b6aa-08f913798f29)
 
 ### Then goto main.py file and run the code "streamlit run main.py" in the terminal which will open a webpage running the final product.
