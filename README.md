@@ -21,7 +21,9 @@ tf.test.is_gpu_available()
 
 ### Download the data set from the link below
 https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset
+
 And configure the folders accordingly
+
 ![image](https://github.com/Dpaace/AI_Fashion_Recommendation_System/assets/63782923/2f711853-56ee-4085-909d-fdb1db4f3a75)
 
 ### Run the code and train the data, which will generate two files like below
