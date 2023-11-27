@@ -14,9 +14,11 @@ python -m pip install --upgrade tensorflow=2.3.1
 
 ### Check whether the CUDA and CUDNN are available for use.
 import tensorflow as tf
+
 print(tf.version.VERSION)
 
 tf.config.list_physical_devices('GPU')
+
 tf.test.is_gpu_available()
 
 ### Download the data set from the link below
